@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "575766653176",
+    "firebase_url": "https://emprestei-f85f9.firebaseio.com",
+    "project_id": "emprestei-f85f9",
+    "storage_bucket": "emprestei-f85f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575766653176:android:fe09653fcfae49e1a4b30d",
+        "android_client_info": {
+          "package_name": "br.com.emprestei"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575766653176-nl2o8imuq61j0vvn7uc23mhv0f50vjdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ0sqVQsewzpzyxHMuLqe5D9MbZT64XB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575766653176-nl2o8imuq61j0vvn7uc23mhv0f50vjdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
