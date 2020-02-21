@@ -1,4 +1,5 @@
 
+import 'package:emprestei/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -11,19 +12,27 @@ class PaginaPrincipal extends StatefulWidget {
 }
 
 class PaginaPrincipalState extends State<PaginaPrincipal> {
+  final GlobalKey<ScaffoldState> _scaffold = new GlobalKey<ScaffoldState>();
   PaginaPrincipalState(this.titulo);
   String titulo;
 
   @override
+  void initState() {
+    super.initState();
+    iniciarAnuncio();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: _scaffold,
       appBar: AppBar(
         title: Text(this.titulo),
         leading: IconButton(
           icon: Icon(Icons.menu),
           tooltip: 'teste',
           onPressed: () {
-            Scaffold.of(this.context).openDrawer();
+            _scaffold.currentState.openDrawer();
           },
         ),
       ),
@@ -31,7 +40,9 @@ class PaginaPrincipalState extends State<PaginaPrincipal> {
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
-            DrawerHeader(),
+            DrawerHeader(
+              child: null
+            ),
             ListTile()
           ],
         ),

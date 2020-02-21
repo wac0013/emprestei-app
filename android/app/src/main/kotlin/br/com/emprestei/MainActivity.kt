@@ -1,4 +1,4 @@
-package com.example.emprestei
+package br.com.emprestei
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

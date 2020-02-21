@@ -1,5 +1,5 @@
 
-import 'package:emprestei/pages/pagina_principal.dart';
+import 'package:emprestei/pages/pagina_login.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:splashscreen/splashscreen.dart';
@@ -17,15 +17,14 @@ Widget splash() {
             Colors.blue
           ]
         ),
-        navigateAfterSeconds: PaginaPrincipal(),
+        navigateAfterSeconds: PaginaLogin(),
         loaderColor: Colors.green,
       ),
       Container(
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage("assets/images/dinheiro-icon2.png"),
-            fit: BoxFit.none,
-
+            fit: BoxFit.scaleDown
           )
         ),
       )

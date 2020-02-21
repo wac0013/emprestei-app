@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "575766653176-ft4btm36j420li20ph39bf7ispcut2vq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.emprestei",
+            "certificate_hash": "188d8b3b921a09573b8dae1f6068df84e6e32b2c"
+          }
+        },
+        {
           "client_id": "575766653176-nl2o8imuq61j0vvn7uc23mhv0f50vjdh.apps.googleusercontent.com",
           "client_type": 3
         }
